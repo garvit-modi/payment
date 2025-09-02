@@ -1,8 +1,9 @@
 package com.blog.payment.repository;
 
-import com.blog.payment.entity.PaymentEvent;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.blog.payment.entity.PaymentEvent;
 
 @Repository
 public interface PaymentEventRepository extends JpaRepository<PaymentEvent, Long> {

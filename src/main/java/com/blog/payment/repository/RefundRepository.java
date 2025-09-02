@@ -1,8 +1,9 @@
 package com.blog.payment.repository;
 
-import com.blog.payment.entity.Refund;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.blog.payment.entity.Refund;
 
 @Repository
 public interface RefundRepository extends JpaRepository<Refund, Long> {
